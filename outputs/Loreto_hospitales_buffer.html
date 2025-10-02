@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a7023ba58c63fd1d76806b45dbc136b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9a7023ba58c63fd1d76806b45dbc136b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9a7023ba58c63fd1d76806b45dbc136b = L.map(
+                "map_9a7023ba58c63fd1d76806b45dbc136b",
+                {
+                    center: [-5.679734591669795, -74.09879064148626],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_65f70527a94dd3848827495c1a63ff53 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_65f70527a94dd3848827495c1a63ff53.addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+            var circle_55ceab1438779ef0218a3a5298ee62e1 = L.circle(
+                [-3.7823183599999277, -73.28707812499994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_1b37d11ddeab728ceb6bcc25151be76f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e670a99af0f3ca1c95c83d80e4edb392 = $(`<div id="html_e670a99af0f3ca1c95c83d80e4edb392" style="width: 100.0%; height: 100.0%;">Max Buffer 10 km - TRES DE OCTUBRE (1601130012)</div>`)[0];
+                popup_1b37d11ddeab728ceb6bcc25151be76f.setContent(html_e670a99af0f3ca1c95c83d80e4edb392);
+            
+        
+
+        circle_55ceab1438779ef0218a3a5298ee62e1.bindPopup(popup_1b37d11ddeab728ceb6bcc25151be76f)
+        ;
+
+        
+    
+    
+            var marker_c6f7d76843610c3323db6cba570a8049 = L.marker(
+                [-3.7823183599999277, -73.28707812499994],
+                {
+}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+            var icon_9967f057f9feca770866bd69970148a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3fd36338ec2b5b5c755021edc468b916 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93caa3f0ea8a236b87260deb91fbdb65 = $(`<div id="html_93caa3f0ea8a236b87260deb91fbdb65" style="width: 100.0%; height: 100.0%;">Max concentración de hospitales: TRES DE OCTUBRE (1601130012)</div>`)[0];
+                popup_3fd36338ec2b5b5c755021edc468b916.setContent(html_93caa3f0ea8a236b87260deb91fbdb65);
+            
+        
+
+        marker_c6f7d76843610c3323db6cba570a8049.bindPopup(popup_3fd36338ec2b5b5c755021edc468b916)
+        ;
+
+        
+    
+    
+                marker_c6f7d76843610c3323db6cba570a8049.setIcon(icon_9967f057f9feca770866bd69970148a6);
+            
+    
+            var circle_marker_f843dbb35217e7026600519b5abcd497 = L.circleMarker(
+                [-3.7645702200000013, -73.24459961],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_de18433c31c49ca4ab105b6346c614b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70267be1f15851c26286810ebe635eae = $(`<div id="html_70267be1f15851c26286810ebe635eae" style="width: 100.0%; height: 100.0%;"><b>C.S. I-3 9 DE OCTUBRE</b><br>Código Único: 23</div>`)[0];
+                popup_de18433c31c49ca4ab105b6346c614b8.setContent(html_70267be1f15851c26286810ebe635eae);
+            
+        
+
+        circle_marker_f843dbb35217e7026600519b5abcd497.bindPopup(popup_de18433c31c49ca4ab105b6346c614b8)
+        ;
+
+        
+    
+    
+            circle_marker_f843dbb35217e7026600519b5abcd497.bindTooltip(
+                `<div>
+                     C.S. I-3 9 DE OCTUBRE (Cód: 23)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_805ac3e3257ddcd2b5437612abc6a17b = L.circleMarker(
+                [-3.780539999999994, -73.35469],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_bf1eaa24fc41ccfdfdf81bbb3ac41c42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_174b633326ed577555980ddba4bf3178 = $(`<div id="html_174b633326ed577555980ddba4bf3178" style="width: 100.0%; height: 100.0%;"><b>1RO. DE ENERO</b><br>Código Único: 10</div>`)[0];
+                popup_bf1eaa24fc41ccfdfdf81bbb3ac41c42.setContent(html_174b633326ed577555980ddba4bf3178);
+            
+        
+
+        circle_marker_805ac3e3257ddcd2b5437612abc6a17b.bindPopup(popup_bf1eaa24fc41ccfdfdf81bbb3ac41c42)
+        ;
+
+        
+    
+    
+            circle_marker_805ac3e3257ddcd2b5437612abc6a17b.bindTooltip(
+                `<div>
+                     1RO. DE ENERO (Cód: 10)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_53ed82d4243671466a83a147f0fff06c = L.circleMarker(
+                [-3.7709699999999975, -73.3622],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_c8b968bf1efad1df34ed723c04132801 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_434e1f131871c1f8495707da5d668b89 = $(`<div id="html_434e1f131871c1f8495707da5d668b89" style="width: 100.0%; height: 100.0%;"><b>TUPAC AMARU DE IQUITOS</b><br>Código Único: 8</div>`)[0];
+                popup_c8b968bf1efad1df34ed723c04132801.setContent(html_434e1f131871c1f8495707da5d668b89);
+            
+        
+
+        circle_marker_53ed82d4243671466a83a147f0fff06c.bindPopup(popup_c8b968bf1efad1df34ed723c04132801)
+        ;
+
+        
+    
+    
+            circle_marker_53ed82d4243671466a83a147f0fff06c.bindTooltip(
+                `<div>
+                     TUPAC AMARU DE IQUITOS (Cód: 8)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_09399a890614f20286b051298dd3b480 = L.circleMarker(
+                [-3.7743900000000004, -73.37176],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_3e6b7cb403ed08330dd4ee6de057edac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2443bb7b1669342a7c988930ed0a90de = $(`<div id="html_2443bb7b1669342a7c988930ed0a90de" style="width: 100.0%; height: 100.0%;"><b>SAN ANTONIO DE IQUITOS</b><br>Código Único: 9</div>`)[0];
+                popup_3e6b7cb403ed08330dd4ee6de057edac.setContent(html_2443bb7b1669342a7c988930ed0a90de);
+            
+        
+
+        circle_marker_09399a890614f20286b051298dd3b480.bindPopup(popup_3e6b7cb403ed08330dd4ee6de057edac)
+        ;
+
+        
+    
+    
+            circle_marker_09399a890614f20286b051298dd3b480.bindTooltip(
+                `<div>
+                     SAN ANTONIO DE IQUITOS (Cód: 9)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8a5403f81a6ac98fe9ec08a9a9279ed4 = L.circleMarker(
+                [-3.750729999999994, -73.25213667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_e11c643d36e73e535e08581e49411e9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7752d3ee7a8e93740c4ef0638b8ce8fa = $(`<div id="html_7752d3ee7a8e93740c4ef0638b8ce8fa" style="width: 100.0%; height: 100.0%;"><b>CLINICA SAN JUAN</b><br>Código Único: 11737</div>`)[0];
+                popup_e11c643d36e73e535e08581e49411e9e.setContent(html_7752d3ee7a8e93740c4ef0638b8ce8fa);
+            
+        
+
+        circle_marker_8a5403f81a6ac98fe9ec08a9a9279ed4.bindPopup(popup_e11c643d36e73e535e08581e49411e9e)
+        ;
+
+        
+    
+    
+            circle_marker_8a5403f81a6ac98fe9ec08a9a9279ed4.bindTooltip(
+                `<div>
+                     CLINICA SAN JUAN (Cód: 11737)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c95bb8ca51f35d50c333f13620f7fcf3 = L.circleMarker(
+                [-3.7513058000000035, -73.2437528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_55b36026b48105a55a785215c893702c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_695b4a37dcd95d5b5eb53a2b2d700d64 = $(`<div id="html_695b4a37dcd95d5b5eb53a2b2d700d64" style="width: 100.0%; height: 100.0%;"><b>CENTRO DE ATENCION PRIMARIA III IQUITOS</b><br>Código Único: 11408</div>`)[0];
+                popup_55b36026b48105a55a785215c893702c.setContent(html_695b4a37dcd95d5b5eb53a2b2d700d64);
+            
+        
+
+        circle_marker_c95bb8ca51f35d50c333f13620f7fcf3.bindPopup(popup_55b36026b48105a55a785215c893702c)
+        ;
+
+        
+    
+    
+            circle_marker_c95bb8ca51f35d50c333f13620f7fcf3.bindTooltip(
+                `<div>
+                     CENTRO DE ATENCION PRIMARIA III IQUITOS (Cód: 11408)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c7d1deaec9f2d5bc1ae5e5cb20f60f2d = L.circleMarker(
+                [-3.7832900000000094, -73.3462],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_ea32b9fcdee26c4c7e30881fb636defa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_139ec26a493beecd395c6ce6f5fc1f36 = $(`<div id="html_139ec26a493beecd395c6ce6f5fc1f36" style="width: 100.0%; height: 100.0%;"><b>VARGAS GUERRA</b><br>Código Único: 11</div>`)[0];
+                popup_ea32b9fcdee26c4c7e30881fb636defa.setContent(html_139ec26a493beecd395c6ce6f5fc1f36);
+            
+        
+
+        circle_marker_c7d1deaec9f2d5bc1ae5e5cb20f60f2d.bindPopup(popup_ea32b9fcdee26c4c7e30881fb636defa)
+        ;
+
+        
+    
+    
+            circle_marker_c7d1deaec9f2d5bc1ae5e5cb20f60f2d.bindTooltip(
+                `<div>
+                     VARGAS GUERRA (Cód: 11)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b047ca1aeebe4f91f0af05c76246ccdb = L.circleMarker(
+                [-3.7645702200000013, -73.24459961],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_ed75fa1c34ea2563b2b79f3c3255dda3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a36a6de64cd47811bfd885c5ce6bfe97 = $(`<div id="html_a36a6de64cd47811bfd885c5ce6bfe97" style="width: 100.0%; height: 100.0%;"><b>6 DE OCTUBRE</b><br>Código Único: 51</div>`)[0];
+                popup_ed75fa1c34ea2563b2b79f3c3255dda3.setContent(html_a36a6de64cd47811bfd885c5ce6bfe97);
+            
+        
+
+        circle_marker_b047ca1aeebe4f91f0af05c76246ccdb.bindPopup(popup_ed75fa1c34ea2563b2b79f3c3255dda3)
+        ;
+
+        
+    
+    
+            circle_marker_b047ca1aeebe4f91f0af05c76246ccdb.bindTooltip(
+                `<div>
+                     6 DE OCTUBRE (Cód: 51)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5cfab116ca55af0d639a14ef90b8c568 = L.circleMarker(
+                [-3.7628180000000073, -73.253653],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_14013a1d15fe3cf033b5c75820a03df8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1165d75c3add60061bc4689b87b032c = $(`<div id="html_c1165d75c3add60061bc4689b87b032c" style="width: 100.0%; height: 100.0%;"><b>HOSPITAL IQUITOS "CESAR GARAYAR GARCIA"</b><br>Código Único: 1</div>`)[0];
+                popup_14013a1d15fe3cf033b5c75820a03df8.setContent(html_c1165d75c3add60061bc4689b87b032c);
+            
+        
+
+        circle_marker_5cfab116ca55af0d639a14ef90b8c568.bindPopup(popup_14013a1d15fe3cf033b5c75820a03df8)
+        ;
+
+        
+    
+    
+            circle_marker_5cfab116ca55af0d639a14ef90b8c568.bindTooltip(
+                `<div>
+                     HOSPITAL IQUITOS "CESAR GARAYAR GARCIA" (Cód: 1)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7445e29fc79299d149dfb5d2691bc991 = L.circleMarker(
+                [-3.774419999999994, -73.28655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_febf3adde43c200949ef8dbbf609654a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84f480b20fc7e4a2ae9c33bae65299b5 = $(`<div id="html_84f480b20fc7e4a2ae9c33bae65299b5" style="width: 100.0%; height: 100.0%;"><b>SAN JUAN DE MIRAFLORES</b><br>Código Único: 25</div>`)[0];
+                popup_febf3adde43c200949ef8dbbf609654a.setContent(html_84f480b20fc7e4a2ae9c33bae65299b5);
+            
+        
+
+        circle_marker_7445e29fc79299d149dfb5d2691bc991.bindPopup(popup_febf3adde43c200949ef8dbbf609654a)
+        ;
+
+        
+    
+    
+            circle_marker_7445e29fc79299d149dfb5d2691bc991.bindTooltip(
+                `<div>
+                     SAN JUAN DE MIRAFLORES (Cód: 25)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_257e1db349366195fe0027e1ac8235a5 = L.circleMarker(
+                [-3.7534399999999937, -73.35446],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_37558c350653ab2caf22e33c5d53ab59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f283b0059bc5f77232efb449f11968d = $(`<div id="html_3f283b0059bc5f77232efb449f11968d" style="width: 100.0%; height: 100.0%;"><b>MORONACOCHA</b><br>Código Único: 7</div>`)[0];
+                popup_37558c350653ab2caf22e33c5d53ab59.setContent(html_3f283b0059bc5f77232efb449f11968d);
+            
+        
+
+        circle_marker_257e1db349366195fe0027e1ac8235a5.bindPopup(popup_37558c350653ab2caf22e33c5d53ab59)
+        ;
+
+        
+    
+    
+            circle_marker_257e1db349366195fe0027e1ac8235a5.bindTooltip(
+                `<div>
+                     MORONACOCHA (Cód: 7)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_10c094ead3b087599cf221ac170b1ded = L.circleMarker(
+                [-3.7848110100000034, -73.28816103],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_5b21e54541fc212edf870b8ab58fa1a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9243f2efd6839d5cd453d2e459d2c02a = $(`<div id="html_9243f2efd6839d5cd453d2e459d2c02a" style="width: 100.0%; height: 100.0%;"><b>NUEVO PROGRESO</b><br>Código Único: 43</div>`)[0];
+                popup_5b21e54541fc212edf870b8ab58fa1a1.setContent(html_9243f2efd6839d5cd453d2e459d2c02a);
+            
+        
+
+        circle_marker_10c094ead3b087599cf221ac170b1ded.bindPopup(popup_5b21e54541fc212edf870b8ab58fa1a1)
+        ;
+
+        
+    
+    
+            circle_marker_10c094ead3b087599cf221ac170b1ded.bindTooltip(
+                `<div>
+                     NUEVO PROGRESO (Cód: 43)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd2f8f29e6b6bc13e90b92b25c62e2ba = L.circleMarker(
+                [-3.774418000000001, -73.287],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_51d4a0cdde7be27a29c765dca7236a05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ce2c3369b05457b16dc8f486f47b66c = $(`<div id="html_1ce2c3369b05457b16dc8f486f47b66c" style="width: 100.0%; height: 100.0%;"><b>PROGRESO DE SAN JUAN BAUTISTA</b><br>Código Único: 26</div>`)[0];
+                popup_51d4a0cdde7be27a29c765dca7236a05.setContent(html_1ce2c3369b05457b16dc8f486f47b66c);
+            
+        
+
+        circle_marker_fd2f8f29e6b6bc13e90b92b25c62e2ba.bindPopup(popup_51d4a0cdde7be27a29c765dca7236a05)
+        ;
+
+        
+    
+    
+            circle_marker_fd2f8f29e6b6bc13e90b92b25c62e2ba.bindTooltip(
+                `<div>
+                     PROGRESO DE SAN JUAN BAUTISTA (Cód: 26)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d5654beca3b73c21dd9fad39b2b749c = L.circleMarker(
+                [-3.8468988399999953, -73.34157652],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_94122c056a072b36497aaeb617dda095 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_174c8c4ffc792b0da450b33d97e0b55b = $(`<div id="html_174c8c4ffc792b0da450b33d97e0b55b" style="width: 100.0%; height: 100.0%;"><b>LOS DELFINES</b><br>Código Único: 6794</div>`)[0];
+                popup_94122c056a072b36497aaeb617dda095.setContent(html_174c8c4ffc792b0da450b33d97e0b55b);
+            
+        
+
+        circle_marker_6d5654beca3b73c21dd9fad39b2b749c.bindPopup(popup_94122c056a072b36497aaeb617dda095)
+        ;
+
+        
+    
+    
+            circle_marker_6d5654beca3b73c21dd9fad39b2b749c.bindTooltip(
+                `<div>
+                     LOS DELFINES (Cód: 6794)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f50e5c7884206de8f992fcde6df7fe07 = L.circleMarker(
+                [-3.7878819499999956, -73.29931008],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_4ce789f58ceb63b578bbdf02b731f593 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2406339aeb165e123e20cd735ee151e = $(`<div id="html_f2406339aeb165e123e20cd735ee151e" style="width: 100.0%; height: 100.0%;"><b>AMERICA DE SAN JUAN BAUTISTA</b><br>Código Único: 27</div>`)[0];
+                popup_4ce789f58ceb63b578bbdf02b731f593.setContent(html_f2406339aeb165e123e20cd735ee151e);
+            
+        
+
+        circle_marker_f50e5c7884206de8f992fcde6df7fe07.bindPopup(popup_4ce789f58ceb63b578bbdf02b731f593)
+        ;
+
+        
+    
+    
+            circle_marker_f50e5c7884206de8f992fcde6df7fe07.bindTooltip(
+                `<div>
+                     AMERICA DE SAN JUAN BAUTISTA (Cód: 27)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b7e48b47a66951cb15a72d675938a3f0 = L.circleMarker(
+                [-3.7188407999999944, -73.2439423],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_dee72a4704bbfbb13dbbbcb627a76206 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04ab340130117ab9bfb667f6f101df28 = $(`<div id="html_04ab340130117ab9bfb667f6f101df28" style="width: 100.0%; height: 100.0%;"><b>HOSPITAL III IQUITOS</b><br>Código Único: 11409</div>`)[0];
+                popup_dee72a4704bbfbb13dbbbcb627a76206.setContent(html_04ab340130117ab9bfb667f6f101df28);
+            
+        
+
+        circle_marker_b7e48b47a66951cb15a72d675938a3f0.bindPopup(popup_dee72a4704bbfbb13dbbbcb627a76206)
+        ;
+
+        
+    
+    
+            circle_marker_b7e48b47a66951cb15a72d675938a3f0.bindTooltip(
+                `<div>
+                     HOSPITAL III IQUITOS (Cód: 11409)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7b5686ecac803e57b66afb1074d6a4bb = L.circleMarker(
+                [-3.7318900000000044, -73.32325],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_1aa63570c6c3b7151788f741499fc2f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7223462a59b131a18299070f24268042 = $(`<div id="html_7223462a59b131a18299070f24268042" style="width: 100.0%; height: 100.0%;"><b>CENTRO REHABILITACION ENFERMO MENTAL</b><br>Código Único: 2</div>`)[0];
+                popup_1aa63570c6c3b7151788f741499fc2f0.setContent(html_7223462a59b131a18299070f24268042);
+            
+        
+
+        circle_marker_7b5686ecac803e57b66afb1074d6a4bb.bindPopup(popup_1aa63570c6c3b7151788f741499fc2f0)
+        ;
+
+        
+    
+    
+            circle_marker_7b5686ecac803e57b66afb1074d6a4bb.bindTooltip(
+                `<div>
+                     CENTRO REHABILITACION ENFERMO MENTAL (Cód: 2)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_54c2b87b6dd15a8b97184e53ca68e701 = L.circleMarker(
+                [-3.731224799999991, -73.2473552],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_8f443a90f7a85b5692da4b7ec2cbb04a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5de600a3903a667b3559a1cc1f7a7459 = $(`<div id="html_5de600a3903a667b3559a1cc1f7a7459" style="width: 100.0%; height: 100.0%;"><b>CENTRO DE ATENCION PRIMARIA III PUNCHANA</b><br>Código Único: 11397</div>`)[0];
+                popup_8f443a90f7a85b5692da4b7ec2cbb04a.setContent(html_5de600a3903a667b3559a1cc1f7a7459);
+            
+        
+
+        circle_marker_54c2b87b6dd15a8b97184e53ca68e701.bindPopup(popup_8f443a90f7a85b5692da4b7ec2cbb04a)
+        ;
+
+        
+    
+    
+            circle_marker_54c2b87b6dd15a8b97184e53ca68e701.bindTooltip(
+                `<div>
+                     CENTRO DE ATENCION PRIMARIA III PUNCHANA (Cód: 11397)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9b1fc0ee86eebb2843a06d735391fc2c = L.circleMarker(
+                [-3.7269604799999994, -73.25341698],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_62d4fbc3640e5249ad593973cf184f2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_305d440c44eaaf5bc55c7d9782dcb65c = $(`<div id="html_305d440c44eaaf5bc55c7d9782dcb65c" style="width: 100.0%; height: 100.0%;"><b>HOSPITAL REGIONAL DE LORETO "FELIPE SANTIAGO ARRIOLA IGLESIAS"</b><br>Código Único: 3</div>`)[0];
+                popup_62d4fbc3640e5249ad593973cf184f2b.setContent(html_305d440c44eaaf5bc55c7d9782dcb65c);
+            
+        
+
+        circle_marker_9b1fc0ee86eebb2843a06d735391fc2c.bindPopup(popup_62d4fbc3640e5249ad593973cf184f2b)
+        ;
+
+        
+    
+    
+            circle_marker_9b1fc0ee86eebb2843a06d735391fc2c.bindTooltip(
+                `<div>
+                     HOSPITAL REGIONAL DE LORETO "FELIPE SANTIAGO ARRIOLA IGLESIAS" (Cód: 3)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_174780effb7eb2c9e9d51c78f3fa29ad = L.circleMarker(
+                [-3.7195100000000068, -73.28273],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_d273f8ffe526bfd74f3512963c124b14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fb435cfd672a78b3f8f15b2b283874d = $(`<div id="html_2fb435cfd672a78b3f8f15b2b283874d" style="width: 100.0%; height: 100.0%;"><b>MANACAMIRI</b><br>Código Único: 12</div>`)[0];
+                popup_d273f8ffe526bfd74f3512963c124b14.setContent(html_2fb435cfd672a78b3f8f15b2b283874d);
+            
+        
+
+        circle_marker_174780effb7eb2c9e9d51c78f3fa29ad.bindPopup(popup_d273f8ffe526bfd74f3512963c124b14)
+        ;
+
+        
+    
+    
+            circle_marker_174780effb7eb2c9e9d51c78f3fa29ad.bindTooltip(
+                `<div>
+                     MANACAMIRI (Cód: 12)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7361968443d807e5c370e5932204b491 = L.circleMarker(
+                [-3.8008698699999974, -73.33900617],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_70c25a16befe12273c35a2d2b4fc73e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f008af3418bb345ce4cc228dc76f0c1 = $(`<div id="html_8f008af3418bb345ce4cc228dc76f0c1" style="width: 100.0%; height: 100.0%;"><b>SANTO TOMAS DE SAN JUAN DE BAUTISTA</b><br>Código Único: 30</div>`)[0];
+                popup_70c25a16befe12273c35a2d2b4fc73e3.setContent(html_8f008af3418bb345ce4cc228dc76f0c1);
+            
+        
+
+        circle_marker_7361968443d807e5c370e5932204b491.bindPopup(popup_70c25a16befe12273c35a2d2b4fc73e3)
+        ;
+
+        
+    
+    
+            circle_marker_7361968443d807e5c370e5932204b491.bindTooltip(
+                `<div>
+                     SANTO TOMAS DE SAN JUAN DE BAUTISTA (Cód: 30)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6eb2205102fc2100de1264851e58a34c = L.circleMarker(
+                [-3.7317283299999926, -73.24118167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_46a7feace46d712a4f4e95dd774ad0f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_005a89ddfeab27d0a12cf68e4862e2fa = $(`<div id="html_005a89ddfeab27d0a12cf68e4862e2fa" style="width: 100.0%; height: 100.0%;"><b>CLÍNICA NAVAL DE IQUITOS</b><br>Código Único: 10736</div>`)[0];
+                popup_46a7feace46d712a4f4e95dd774ad0f4.setContent(html_005a89ddfeab27d0a12cf68e4862e2fa);
+            
+        
+
+        circle_marker_6eb2205102fc2100de1264851e58a34c.bindPopup(popup_46a7feace46d712a4f4e95dd774ad0f4)
+        ;
+
+        
+    
+    
+            circle_marker_6eb2205102fc2100de1264851e58a34c.bindTooltip(
+                `<div>
+                     CLÍNICA NAVAL DE IQUITOS (Cód: 10736)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4d107e410ed307579f4515403606d77b = L.circleMarker(
+                [-3.778867770000005, -73.28103798],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_032a3c6066343084585d539b850f891c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ff93818d03609768c94e2e144644adf = $(`<div id="html_4ff93818d03609768c94e2e144644adf" style="width: 100.0%; height: 100.0%;"><b>MODELO</b><br>Código Único: 6693</div>`)[0];
+                popup_032a3c6066343084585d539b850f891c.setContent(html_4ff93818d03609768c94e2e144644adf);
+            
+        
+
+        circle_marker_4d107e410ed307579f4515403606d77b.bindPopup(popup_032a3c6066343084585d539b850f891c)
+        ;
+
+        
+    
+    
+            circle_marker_4d107e410ed307579f4515403606d77b.bindTooltip(
+                `<div>
+                     MODELO (Cód: 6693)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cee7dac6fdd93d95782c7c86a31b6ea4 = L.circleMarker(
+                [-3.774696580000003, -73.27373847],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_c781ddc6226e9023a752cfaefb6e5703 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f4c8ef4c1c68d8e9387646d1da36f01 = $(`<div id="html_1f4c8ef4c1c68d8e9387646d1da36f01" style="width: 100.0%; height: 100.0%;"><b>CARDOZO</b><br>Código Único: 24</div>`)[0];
+                popup_c781ddc6226e9023a752cfaefb6e5703.setContent(html_1f4c8ef4c1c68d8e9387646d1da36f01);
+            
+        
+
+        circle_marker_cee7dac6fdd93d95782c7c86a31b6ea4.bindPopup(popup_c781ddc6226e9023a752cfaefb6e5703)
+        ;
+
+        
+    
+    
+            circle_marker_cee7dac6fdd93d95782c7c86a31b6ea4.bindTooltip(
+                `<div>
+                     CARDOZO (Cód: 24)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_253742e803b82db0f70f7d990bda7e5b = L.circleMarker(
+                [-3.6938300000000033, -73.27162],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_d4e4374bac758fd5ec512a91936fc660 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c43a4a17272f4c6b88882cf9df56390 = $(`<div id="html_5c43a4a17272f4c6b88882cf9df56390" style="width: 100.0%; height: 100.0%;"><b>P.S. PADRE COCHA</b><br>Código Único: 17</div>`)[0];
+                popup_d4e4374bac758fd5ec512a91936fc660.setContent(html_5c43a4a17272f4c6b88882cf9df56390);
+            
+        
+
+        circle_marker_253742e803b82db0f70f7d990bda7e5b.bindPopup(popup_d4e4374bac758fd5ec512a91936fc660)
+        ;
+
+        
+    
+    
+            circle_marker_253742e803b82db0f70f7d990bda7e5b.bindTooltip(
+                `<div>
+                     P.S. PADRE COCHA (Cód: 17)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_533c243ce1e8c62949641e3d711b1297 = L.circleMarker(
+                [-3.829609999999996, -73.35632],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_715f0f101709d24dc415b45bfc4839e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21257eeebaf16c8bf2974e68c567721f = $(`<div id="html_21257eeebaf16c8bf2974e68c567721f" style="width: 100.0%; height: 100.0%;"><b>ZUNGAROCOCHA</b><br>Código Único: 31</div>`)[0];
+                popup_715f0f101709d24dc415b45bfc4839e1.setContent(html_21257eeebaf16c8bf2974e68c567721f);
+            
+        
+
+        circle_marker_533c243ce1e8c62949641e3d711b1297.bindPopup(popup_715f0f101709d24dc415b45bfc4839e1)
+        ;
+
+        
+    
+    
+            circle_marker_533c243ce1e8c62949641e3d711b1297.bindTooltip(
+                `<div>
+                     ZUNGAROCOCHA (Cód: 31)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bc395e5292566afa7404bca92a0ecf30 = L.circleMarker(
+                [-3.779367709999996, -73.31303996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_bd5c8ea5b7d14fb904f5d09bb17111fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9a7f60d70d0cb8857bdc6c57584bac5 = $(`<div id="html_f9a7f60d70d0cb8857bdc6c57584bac5" style="width: 100.0%; height: 100.0%;"><b>RUMOCOCHA</b><br>Código Único: 28</div>`)[0];
+                popup_bd5c8ea5b7d14fb904f5d09bb17111fe.setContent(html_f9a7f60d70d0cb8857bdc6c57584bac5);
+            
+        
+
+        circle_marker_bc395e5292566afa7404bca92a0ecf30.bindPopup(popup_bd5c8ea5b7d14fb904f5d09bb17111fe)
+        ;
+
+        
+    
+    
+            circle_marker_bc395e5292566afa7404bca92a0ecf30.bindTooltip(
+                `<div>
+                     RUMOCOCHA (Cód: 28)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1864062506c4f7f26840d7e19ec4f277 = L.circleMarker(
+                [-3.7645599999999932, -73.24462],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_23c4507dbb4b8ac2d54a0dcc544f6cb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d66ef46e4b7ab3e3959b9e5d94c41440 = $(`<div id="html_d66ef46e4b7ab3e3959b9e5d94c41440" style="width: 100.0%; height: 100.0%;"><b>ACLAS BELEN DE VILLA BELEN</b><br>Código Único: 275</div>`)[0];
+                popup_23c4507dbb4b8ac2d54a0dcc544f6cb9.setContent(html_d66ef46e4b7ab3e3959b9e5d94c41440);
+            
+        
+
+        circle_marker_1864062506c4f7f26840d7e19ec4f277.bindPopup(popup_23c4507dbb4b8ac2d54a0dcc544f6cb9)
+        ;
+
+        
+    
+    
+            circle_marker_1864062506c4f7f26840d7e19ec4f277.bindTooltip(
+                `<div>
+                     ACLAS BELEN DE VILLA BELEN (Cód: 275)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_023dcd0603793e0c7b31dd90173a43d3 = L.circleMarker(
+                [-3.784615100000007, -73.2560796],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_a45ac9f623652a6ce36ea1974f1d044e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2790b0e11bbab618ff209140e5969d89 = $(`<div id="html_2790b0e11bbab618ff209140e5969d89" style="width: 100.0%; height: 100.0%;"><b>MUNICHS - RIO ITAYA</b><br>Código Único: 48</div>`)[0];
+                popup_a45ac9f623652a6ce36ea1974f1d044e.setContent(html_2790b0e11bbab618ff209140e5969d89);
+            
+        
+
+        circle_marker_023dcd0603793e0c7b31dd90173a43d3.bindPopup(popup_a45ac9f623652a6ce36ea1974f1d044e)
+        ;
+
+        
+    
+    
+            circle_marker_023dcd0603793e0c7b31dd90173a43d3.bindTooltip(
+                `<div>
+                     MUNICHS - RIO ITAYA (Cód: 48)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_3089dfa5a92890bb5876583b39d8d16b = L.circle(
+                [-7.576726562000018, -74.91503124999997],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_44c5104ae7170d1a537688437b312a01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e68b9ad5e1f12600ffbdb8ab9880db6 = $(`<div id="html_5e68b9ad5e1f12600ffbdb8ab9880db6" style="width: 100.0%; height: 100.0%;">Min Buffer 10 km - AMAQUIRIA (1606010048)</div>`)[0];
+                popup_44c5104ae7170d1a537688437b312a01.setContent(html_5e68b9ad5e1f12600ffbdb8ab9880db6);
+            
+        
+
+        circle_3089dfa5a92890bb5876583b39d8d16b.bindPopup(popup_44c5104ae7170d1a537688437b312a01)
+        ;
+
+        
+    
+    
+            var marker_eb7bcf4cadf9bfa64b67b55c2688d093 = L.marker(
+                [-7.576726562000018, -74.91503124999997],
+                {
+}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+            var icon_3c6678bacc7681b3d459cebbd0cdf28d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1c36300f87dbb5cbce97280b8590859 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec07b5878ac0168913ffb4826fb94ce3 = $(`<div id="html_ec07b5878ac0168913ffb4826fb94ce3" style="width: 100.0%; height: 100.0%;">Min concentración de hospitales: AMAQUIRIA (1606010048)</div>`)[0];
+                popup_e1c36300f87dbb5cbce97280b8590859.setContent(html_ec07b5878ac0168913ffb4826fb94ce3);
+            
+        
+
+        marker_eb7bcf4cadf9bfa64b67b55c2688d093.bindPopup(popup_e1c36300f87dbb5cbce97280b8590859)
+        ;
+
+        
+    
+    
+                marker_eb7bcf4cadf9bfa64b67b55c2688d093.setIcon(icon_3c6678bacc7681b3d459cebbd0cdf28d);
+            
+    
+            var circle_marker_4ebf52189757c165676e11d64d768959 = L.circleMarker(
+                [-7.576490000000005, -74.98431],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+        var popup_873c8fe88471f2d5df9f521f8fe002e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c00a01067c89eab5c2d86f0b300c32a4 = $(`<div id="html_c00a01067c89eab5c2d86f0b300c32a4" style="width: 100.0%; height: 100.0%;"><b>HOLANDA</b><br>Código Único: 166</div>`)[0];
+                popup_873c8fe88471f2d5df9f521f8fe002e4.setContent(html_c00a01067c89eab5c2d86f0b300c32a4);
+            
+        
+
+        circle_marker_4ebf52189757c165676e11d64d768959.bindPopup(popup_873c8fe88471f2d5df9f521f8fe002e4)
+        ;
+
+        
+    
+    
+            circle_marker_4ebf52189757c165676e11d64d768959.bindTooltip(
+                `<div>
+                     HOLANDA (Cód: 166)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_65f70527a94dd3848827495c1a63ff53.addTo(map_9a7023ba58c63fd1d76806b45dbc136b);
+        
+    
+                marker_c6f7d76843610c3323db6cba570a8049.setIcon(icon_9967f057f9feca770866bd69970148a6);
+            
+    
+                marker_eb7bcf4cadf9bfa64b67b55c2688d093.setIcon(icon_3c6678bacc7681b3d459cebbd0cdf28d);
+            
+</script>
+</html>

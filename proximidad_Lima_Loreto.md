@@ -2,31 +2,21 @@
 
 ## Parte 3 - Tarea 2: Visualización de proximidad
 
-- **Lima**  
-  [Mapa de proximidad — Lima](outputs/mapa_proximidad_Lima.html)
-
-- **Loreto**  
-  [Mapa de proximidad — Loreto](outputs/mapa_proximidad_Loreto.html)
-
 ### Breve análisis comparativo
 
 #### Lima: concentración urbana y accesibilidad
 
-Lima muestra una fuerte concentración de equipamiento hospitalario en su área urbana.  
-Los centros poblados con mayor número de hospitales dentro del radio de 10 km suelen estar en el área metropolitana, lo que implica mejores opciones de acceso y tiempos de traslado más cortos para la mayoría de la población urbana.  
+Lima muestra una fuerte concentración de hospitales en el área metropolitana, particularmente en los distritos centrales. Los centros poblados con mayor número de hospitales dentro del radio de 10 km se ubican generalmente en la zona metropolitana, lo que se traduce en tiempos de traslado reducidos y mayor disponibilidad de servicios especializados para la población. 
 
-Esto también refleja la centralización de servicios y la densidad poblacional: zonas con alta densidad demográfica concentran mayores recursos.
+Esta distribución refleja la centralización de servicios, característico de las grandes urbes, donde la alta densidad demográfica concentra la infraestructura de salud y genera mejor accesibilidad a este recurso. 
 
 #### Loreto: dispersión geográfica y desafíos de accesibilidad
 
-En Loreto, la dispersión espacial de centros poblados y la geografía amazónica (ríos, selva, baja densidad) producen buffers de 10 km con pocos o ningún hospital cercano.  
-El centro poblado con menor número de hospitales suele estar en áreas rurales o ribereñas aisladas.  
+Sin embargo, la región Loreto, enfrenta desafíos estructurales de accesbilidad. La dispersión espacial de centros poblados, la baja densidad poblacional y la compleja geografía producen buffers de 10 km con escasos hospitales cercanos. 
 
-La accesibilidad no depende solo de la distancia euclidiana: transporte fluvial, condiciones climáticas y tiempos de viaje reales suelen agravar la falta de acceso.  
-
-Un buffer de 10 km en Loreto no equivale a un acceso «fácil» como en Lima.
+Los centros poblados más afectados suelen localizarse en áreas ribereñas y rurales aisladas, donde la accesibilidad no se mide de forma lineal, sino en función del tiempo y la complejidad de los desplazamientos. Factores relevantes como la dependencia del trasnporte fluvial, las condiciones climáticas y la escasa estructura vial exacerban las barreras de acceso. 
 
 ### Conclusión
 
-- **Lima**: mayor concentración hospitalaria, accesibilidad más inmediata, aunque con desigualdades internas.  
-- **Loreto**: dispersión, aislamiento y fuerte dependencia de factores geográficos y logísticos para acceder a servicios de salud.
+- **Lima**: Mayor concentración hospitalaria, que favorele la accesibilidad inmediata para las zonas con alta densidad poblacional, aunque persisten desigualdades internas en zonas periféricas.  
+- **Loreto**: Presenta dispersión, aislamiento y fuerte dependencia de factores geográficos y logísticos para acceder a servicios de salud.

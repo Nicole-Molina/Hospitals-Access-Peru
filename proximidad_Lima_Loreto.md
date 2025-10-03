@@ -3,10 +3,10 @@
 ## Parte 3 - Tarea 2: Visualización de proximidad
 
 - **Lima**  
-  [Abrir mapa de proximidad — Lima](../outputs/mapa_proximidad_Lima.html)
+  [Mapa de proximidad — Lima](outputs/mapa_proximidad_Lima.html)
 
 - **Loreto**  
-  [Abrir mapa de proximidad — Loreto](../outputs/mapa_proximidad_Loreto.html)
+  [Mapa de proximidad — Loreto](outputs/mapa_proximidad_Loreto.html)
 
 ### Breve análisis comparativo
 

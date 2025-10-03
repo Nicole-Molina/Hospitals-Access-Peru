@@ -28,8 +28,6 @@ La accesibilidad no depende solo de la distancia euclidiana: transporte fluvial,
 
 Un buffer de 10 km en Loreto no equivale a un acceso «fácil» como en Lima.
 
----
-
 ### Conclusión
 
 - **Lima**: mayor concentración hospitalaria, accesibilidad más inmediata, aunque con desigualdades internas.  

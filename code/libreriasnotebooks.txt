@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+folium
+geopandas[all]
+shapely
+fiona
+pyproj
+rtree
+pyogrio
+altair
+branca
+requests

@@ -5,7 +5,7 @@ Este documento incluye las instrucciones mínimas para ejecutar el proyecto, ade
 ## Instrucciones de ejecución simples 
 1. Crear y activar entorno virtual.
 2. pip install -r requirements.txt.
-3. Ejecutar el notebook con jupyter notebook geopandas.ipynb.
+3. Ejecutar el notebook con jupyter notebook Tarea2_Task1_2.ipynb (Part 2: Tasks 1 y 2) y geopandas.ipynb (Part 2: Task 3 y Part 3).
 
 ## ¿Cómo se filtraron los hospitales en funcionamiento?
 
